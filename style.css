@@ -8,6 +8,7 @@ background-color: #7D8CC4;
 text-align: center;
 }
 .header {
+    border-radius: 20px;
 background-color: #a0d2db;
 text-align: left;
 }
@@ -28,9 +29,10 @@ p {
     text-align: justify;
 }
 .banner {
+    border-radius: 15px;
     margin-top: 15px;
-    margin-left: 23px;
-    margin-right: 23px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 35px;
     padding: 35px;
     background-color: #5f5694;
@@ -41,15 +43,30 @@ p {
    
 }
 .banner2 {
+    border-radius: 15px;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 23px;
-    margin-right: 23px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: #5f5694 ;
 }
 .banner3 {
-    background-color: #5f5694;
-    margin-left: 23px;
-    margin-right: 23px;
-  border-top: #a0d2db;
+    border: 5px dotted #a0d2db;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.about-me {
+  border: 5px dotted #a0d2db;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+}
+.share {
+    padding: 14px;
+  background: #a0d2db;
+  border: 1px solid #a0d2db;
+  border-radius: 7px;
+  color: #7D8CC4;
+  display: inline-block;
+  text-decoration: none;
 }
