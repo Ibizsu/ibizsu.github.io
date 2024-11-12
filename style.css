@@ -8,10 +8,47 @@ background-color: #7D8CC4;
 text-align: center;
 }
 .header {
-    border-radius: 20px;
-background-color: #a0d2db;
-text-align: left;
+    background-color: rgba(119, 255, 235, 0.589);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
 }
+.logo {
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 100%);
+}
+.menu {
+    list-style: none;
+    margin: 0%;
+    padding: 60px;
+    display: flex;
+    padding: 1rem; 
+    text-align: justify;
+}
+.menu a {
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #E2F89C;
+    color: #726DA8;
+    border-radius: 1rem;
+}
+#flex {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
 h1 {
     padding: 0px;
     color: white;
