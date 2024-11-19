@@ -16,7 +16,9 @@ text-align: center;
     top: 0px;
     left: 0px;
     right: 0px;
+    bottom: 660px;
     z-index: 1;
+    
 }
 .logo {
     display: flex;
@@ -80,15 +82,21 @@ p {
    
 }
 .banner2 {
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: 70px;
     margin-right: 70px;
     background-color: #5f5694 ;
 }
+.art {
+display: flex;
+background-color: #a0d2db;
+}
+
 .banner3 {
     border: 5px dotted #a0d2db;
+    margin-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
 }
