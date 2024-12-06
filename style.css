@@ -17,6 +17,10 @@ background-color: #9a8bd4;
 text-align: center;
 }
 .header {
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     background-color: rgba(119, 255, 235, 0.589);
     display: flex;
     justify-content: space-between;
@@ -61,11 +65,11 @@ text-align: center;
 }
 
 h1 {
+    font-family: 'Oi', serif;
     padding: 0px;
     color: white;
     font-size: 40px;
     text-align: center;
-    font-family: monospace;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -105,6 +109,8 @@ p {
 }
 .art {
 display: flex;
+gap: 8px;
+margin-bottom: 10px;
 }
 
 .banner3 {
